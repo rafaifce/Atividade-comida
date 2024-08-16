@@ -1,0 +1,45 @@
+body{
+background-color: rgb(149, 46, 245);
+
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(137, 2, 248);
+    padding: 10px;
+    color: rgba(7, 206, 7, 0.993);
+    text-shadow: black;
+}
+.menu{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.CombosContainer{
+display: grid;
+grid-template-columns: 250px 250px 250px;
+gap: 15px;
+padding: 15px;
+justify-content: center;
+
+}.Combo{
+background-color: white;
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+box-shadow: 0 0 5px black;
+
+}
+.Combo img{
+    width: 200px;
+}
